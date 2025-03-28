@@ -1,0 +1,15 @@
+{
+  "name": "project-book-tracker",
+  "version": "1.0.0",
+  "description": "The Book Tracker is a simple web application that allows users to keep track of their reading list. Users can add books by entering the title and author, edit existing entries, and delete books from their list. The application uses local storage to persist data, ensuring that the user's book list is saved even after refreshing the page.",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

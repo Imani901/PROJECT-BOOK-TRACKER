@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c383a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 18px; 
+}
+
+.container {
+    background: #42b4b4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    text-align: center;
+}
+
+h2 {
+    color: #1d1616;
+    font-family: 22px;
+}
+
+
+#recommendations-list {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+}
+
+
+#recommendations-list li {
+    display: flex; 
+    align-items: center; 
+    padding: 10px; 
+    border-bottom: 1px solid #eee;
+}
+
+#recommendations-list li:last-child {
+    border-bottom: none; 
+}
+
+
+#recommendations-list strong {
+    font-size: 1.1em; 
+    color: #333; 
+    margin-right: 10px; 
+}
+
+
+#recommendations-list p {
+    margin: 0; 
+    color: #666; 
+}
+
+
+#recommendations-list img {
+    margin-left: 10px; 
+    width: 50px; 
+    height: auto; 
+    border-radius: 4px; 
+}
+
+
+#recommendations-list li:hover {
+    background-color: #71a2b6; 
+    cursor: pointer; 
+}
+
+h1 {
+    color: #333;
+    font-size: 24px; 
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; 
+}
+
+button {
+    background: #131a14;
+    color: #f3eaea;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px; 
+}
+
+button:hover {
+    background: #0e110f1a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+table, th, td {
+    border: 1px solid #1d1616;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px; 
+}
+
+th {
+    background: #f8f9fa;
+}
+
+button.edit {
+    background: #331a0f;
+}
+
+button.delete {
+    background: #1d0608;
+}
