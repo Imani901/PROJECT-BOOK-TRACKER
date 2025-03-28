@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.4"
-  }
+  },
+  "scripts": {
+  "start": "node src/server.js"
+}
 }
